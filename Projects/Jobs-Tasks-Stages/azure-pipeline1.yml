@@ -2,6 +2,6 @@ trigger:
 - main
 
 pool:
-vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-latest'
 steps:
 - bash: echo "Hello World"
