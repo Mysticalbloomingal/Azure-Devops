@@ -1,0 +1,11 @@
+trigger:
+- main
+
+pool:
+vmImage: 'ubuntu-latest'
+stages:
+- stage A:
+jobs:
+- job: A1
+steps:
+- bash: echo "Hello World"
